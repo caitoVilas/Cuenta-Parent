@@ -21,9 +21,9 @@ public class CustomerRequest implements Serializable {
     private String name;
     private String surname;
     private String dni;
-    private Set<Long> homeId;
+    private Set<HomeRequest> home;
     private String email;
     private String telephone;
-    private Set<Long> accontId;
+    private Set<AccountRequest> acconts;
 
 }
