@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
  */
 
 @Repository
-public interface HomeRepositoru extends JpaRepository<Home, Long> {
+public interface HomeRepository extends JpaRepository<Home, Long> {
 }
